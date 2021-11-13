@@ -1,0 +1,38 @@
+Akinator database standard
+==========================
+There is no need in multiline questions or answers for Akinator.
+That's why these standard is python like -- simple and concise. 
+
+Character encoding
+------------------
+
+ - utf-8
+
+Note! We don't need 'setlocale' or 'wchar_t'. Utf-8 is a 
+self-sufficient standard, which can be 8, 16, 24, or 32 bits.
+Therefore 'wchar_t' won't save you... Use 'char'
+
+
+Storage format
+--------------
+
+ - Question ends with '?' character
+ - Every question/answer is indentated
+ - Use 4 spaces for indentation
+
+Example
+-------
+
+Животное?
+    Живет в болоте?
+        Лягушка
+        ФОПФ
+    Ведет матан?
+        Ведет допсем?
+            Скуб.
+            А.Ю.
+        Все знают?
+            Овчинкин
+            Неовчинкин.
+
+
