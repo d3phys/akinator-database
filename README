@@ -16,9 +16,19 @@ Therefore 'wchar_t' won't save you... Use 'char'
 Storage format
 --------------
 
- - Question ends with '?' character
- - Every question/answer is indentated
- - Use 4 spaces for indentation
+ - Question ends with '?' character.
+
+ - Positive answer is written first.
+
+ - Every question/answer is indentated.
+
+ - Use 4 spaces for indentation.
+   Important! You shouldn't rely on these rule. File 
+   can be read without indentation at all. 
+
+ - Answers do not have to be terminated with a period.
+   Note! Except abbreviations.
+
 
 Example
 -------
@@ -29,10 +39,9 @@ Example
         ФОПФ
     Ведет матан?
         Ведет допсем?
-            Скуб.
+            Скубачевский
             А.Ю.
         Все знают?
             Овчинкин
-            Неовчинкин.
-
+            Неовчинкин
 
