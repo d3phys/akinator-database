@@ -8,9 +8,9 @@ Character encoding
 
  - utf-8
 
-Note! We don't need 'setlocale' or 'wchar_t'. Utf-8 is a 
+Note! You don't need 'setlocale' or 'wchar_t'. Utf-8 is a 
 self-sufficient standard, which can be 8, 16, 24, or 32 bits.
-Therefore 'wchar_t' won't save you... Use 'char'
+Therefore 'wchar_t' won't save you... Use 'char'.
 
 
 Storage format
@@ -21,13 +21,12 @@ Storage format
  - Positive answer is written first.
 
  - Every question/answer is indentated.
-
- - Use 4 spaces for indentation.
-   Important! You shouldn't rely on these rule. File 
+   Important! You shouldn't rely on this rule. File 
    can be read without indentation at all. 
 
+ - Use 4 spaces for indentation.
+
  - Answers do not have to be terminated with a period.
-   Note! Except abbreviations.
 
 
 Example
