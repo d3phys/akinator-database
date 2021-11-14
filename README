@@ -16,7 +16,7 @@ Therefore 'wchar_t' won't save you... Use 'char'.
 Storage format
 --------------
 
- - Question ends with '?' character.
+ - Question starts with '?' character.
 
  - Positive answer is written first.
 
@@ -33,15 +33,15 @@ Storage format
 Example
 -------
 
-Животное?
-    Живет в болоте?
+?Животное
+    ?Живет в болоте
         Лягушка
         ФОПФ
-    Ведет матан?
-        Ведет допсем?
+    ?Ведет матан
+        ?Ведет допсем
             Скубачевский
             А.Ю.
-        Все знают?
+        ?Все знают
             Овчинкин
             Неовчинкин
 
