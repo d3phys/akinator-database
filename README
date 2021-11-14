@@ -28,6 +28,7 @@ Storage format
 
  - Answers do not have to be terminated with a period.
 
+ - Limit question/answer line to 256 characters.
 
 Example
 -------
