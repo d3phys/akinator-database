@@ -3,6 +3,8 @@ Akinator database standard
 There is no need in multiline questions or answers for Akinator.
 That's why these standard is python like -- simple and concise. 
 
+
+
 Character encoding
 ------------------
 
@@ -16,19 +18,28 @@ Therefore 'wchar_t' won't save you... Use 'char'.
 Storage format
 --------------
 
+ - Each question/answer starts on a new line. 
+
  - Question starts with '?' character.
 
  - Positive answer is written first.
 
+ - Answers/questions do not have to be terminated with a period.
+
+ - Limit question/answer line to 256 characters.
+
+
+Database style format
+---------------------
+
+Important! You shouldn't rely on the rules in this section. 
+These rules are only needed to make database human readable. 
+Database file can be read without indentation at all.
+
  - Every question/answer is indentated.
-   Important! You shouldn't rely on this rule. File 
-   can be read without indentation at all. 
 
  - Use 4 spaces for indentation.
 
- - Answers do not have to be terminated with a period.
-
- - Limit question/answer line to 256 characters.
 
 Example
 -------
