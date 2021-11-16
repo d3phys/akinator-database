@@ -25,6 +25,9 @@ Storage format
 
  - Answers/questions do not have to be terminated with a period.
 
+ - Answers/questions are written in lowercase.
+   Except for names and abbreviations.
+
  - Limit question/answer line to 256 characters.
 
 
@@ -43,15 +46,15 @@ Database file can be read without indentation at all.
 Example
 -------
 
-?Животное
-    ?Живет в болоте
-        Лягушка
+?животное
+    ?живет в болоте
+        лягушка
         ФОПФ
-    ?Ведет матан
-        ?Ведет допсем
+    ?ведет матан
+        ?ведет допсем
             Скубачевский
             А.Ю.
-        ?Все знают
+        ?все знают
             Овчинкин
-            Неовчинкин
+            неовчинкин
 
